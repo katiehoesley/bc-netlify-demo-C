@@ -39,7 +39,7 @@ function App() {
     <Router>
       <ApolloProvider client={client}>
         <div className="App">
-          <h1>BigCommerce Store</h1>
+          <h1>BigCommerce Store!</h1>
           <Routes>
             <Route path="/" element={<ProductListing />} />
             <Route path="/product/:id" element={<SingleProductDetails />} />
